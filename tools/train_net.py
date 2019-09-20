@@ -120,7 +120,7 @@ def main():
         "--skip-test",
         dest="skip_test",
         help="Do not test the final model",
-        action="store_false",
+        action="store_true",
     )
     parser.add_argument(
         "opts",
