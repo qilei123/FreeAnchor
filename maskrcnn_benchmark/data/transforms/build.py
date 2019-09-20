@@ -22,7 +22,7 @@ def build_transforms(cfg, is_train=True):
     transform = T.Compose(
         [
             resize,
-            T.RandomHorizontalFlip(flip_prob),
+            #T.RandomHorizontalFlip(flip_prob),
             T.ToTensor(),
             normalize_transform,
         ]

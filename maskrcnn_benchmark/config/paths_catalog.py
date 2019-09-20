@@ -5,9 +5,17 @@ import os
 
 
 class DatasetCatalog(object):
-    DATA_DIR = "/home/ubuntu/Dataset/"
+    DATA_DIR = "/data0/qilei_chen/"
 
     DATASETS = {
+        "dr4lesions_2014_train": (
+            "AI_EYE/BostonAI4DB7/train2014",
+            "AI_EYE/BostonAI4DB7/annotations/instances_train2014.json",
+        ),
+        "dr4lesions_2014_val": (
+            "AI_EYE/BostonAI4DB7/val2014",
+            "AI_EYE/BostonAI4DB7/annotations/instances_val2014.json",
+        ),
         "coco_test-dev": (
             "MSCOCO2017/images",
             "MSCOCO2017/annotations/image_info_test-dev2017.json",
