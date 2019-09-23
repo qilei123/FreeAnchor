@@ -8,6 +8,14 @@ class DatasetCatalog(object):
     DATA_DIR = "/data0/qilei_chen/"
 
     DATASETS = {
+        "coco_rop_ridge_2014_train": (
+            "AI_EYE/ROP_DATASET/9LESIONS/train2014",
+            "AI_EYE/ROP_DATASET/9LESIONS/annotations/ridge_in_one_instances_train2014.json",
+        ),
+        "coco_rop_ridge_2014_val": (
+            "AI_EYE/ROP_DATASET/9LESIONS/val2014",
+            "AI_EYE/ROP_DATASET/9LESIONS/annotations/ridge_in_one_instances_val2014.json",
+        ),
         "coco_dr4lesions_2014_train": (
             "AI_EYE/BostonAI4DB7/train2014",
             "AI_EYE/BostonAI4DB7/annotations/instances_train2014.json",
